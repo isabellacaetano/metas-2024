@@ -1,6 +1,13 @@
 :root {
-    --cor-de-fundo: #C292F5E;
+    --cor-de-fundo: rgba(194, 146, 245, 0.7);
     --verde: #f157ff;
     --branco: #FFFFFF;
     --botao-ativo: #D1ABF8;
     --texto-fundo: rgba(58, 55, 94, 0.3);
+}
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chelsea Market', sans-serif;
+}
